@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A read on where AI fits in Realfinity's stack, and where it does not</title>
+  <meta name="description" content="Saw the Homa deal in January and the Series A back in October. Here is a bet: the thing that breaks first as you go from five states to twenty is the routing between the AI pre-approval and the human underwriter on non-QM cases." />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div data-eduba="banner" style="background:#0a0a0a;color:#f5f5f5;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:0.01em;border-bottom:1px solid #1f1f1f;position:relative;z-index:1000;">
+  <a href="https://eduba.io" target="_blank" rel="noopener" style="color:#f5f5f5;text-decoration:none;font-weight:800;font-size:17px;letter-spacing:-0.02em;line-height:1;">eduba</a>
+  <span style="opacity:0.88;">Prepared by Eduba for Realfinity &mdash; Emerge Americas 2026</span>
+</div>
+
+
+  <header class="topbar">
+    <div class="container">
+      <span class="wordmark" aria-label="Realfinity">Realfinity<span class="dot" aria-hidden="true"></span></span>
+      <span class="meta"><strong>Prepared for:</strong>&nbsp;Realfinity</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="prep-line">A working note for Realfinity</p>
+
+      <div class="hero-grid">
+        <div>
+          <h1>A read on where AI fits in Realfinity's stack, <em>and where it does not</em>.</h1>
+          <p class="lede">The AI pre-approval layer that handles clean income, clean assets, and clean liabilities keeps performing. The edge cases do not. This page maps the routing problem underneath.</p>
+        </div>
+
+        <aside class="signal" aria-label="Recent Realfinity signals">
+          <div class="label">Why this page exists</div>
+          <ul>
+            <li>
+              <span class="when tabular">Jan 2026</span>
+              <span class="what"><a href="https://finance.yahoo.com/news/realfinity-homa-partner-offer-homebuyers-140000660.html" target="_blank" rel="noopener">Homa partnership</a> goes live. Realfinity's stack powers rates 0.75% below the national average inside Homa's buyer flow.</span>
+            </li>
+            <li>
+              <span class="when tabular">Oct 2025</span>
+              <span class="what">$20M Series A. Index Ventures and Bain Capital Ventures co-lead. Elad Gil participates. Sequoia on the cap table.</span>
+            </li>
+            <li>
+              <span class="when tabular">Jan 2025</span>
+              <span class="what">$5M warehouse facility from Bank of the Sierra. Funding loans directly before the secondary-market sale.</span>
+            </li>
+            <li>
+              <span class="when tabular">Cumulative</span>
+              <span class="what">$150M+ funded originations. Operating in five states. Moving toward a national footprint.</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats strip -->
+  <section class="stats" aria-label="Eduba operating numbers">
+    <div class="container">
+      <div class="eyebrow left">Eduba on the ground</div>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="num tabular">1,500<span class="unit">+</span></span>
+          <p class="cap">people trained across enterprise engagements since May 2025.</p>
+        </div>
+        <div class="stat">
+          <span class="num tabular">6–9<span class="unit">k hrs</span></span>
+          <p class="cap">saved per year at Pacific Life and Colgate-Palmolive via Correlation One.</p>
+        </div>
+        <div class="stat">
+          <span class="num tabular">95<span class="unit">%</span></span>
+          <p class="cap">still using the tools 30 days after the workshop.</p>
+        </div>
+        <div class="stat">
+          <span class="num tabular">40<span class="unit">+</span></span>
+          <p class="cap">executives trained at KPMG UK, one of the Big Four.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pitch body -->
+  <section class="pitch">
+    <div class="container">
+      <div class="eyebrow">The read</div>
+
+      <h2>The Series A closed in October. The next twelve months compound <em>the agent network, the warehouse line, and the partner integrations</em> at once.</h2>
+
+      <div class="pitch-grid">
+        <aside class="pitch-aside">
+          <strong>Working hypothesis</strong>
+          What breaks first when a mortgage infrastructure company scales through this inflection.
+        </aside>
+
+        <div class="pitch-body">
+          <p>Here is what breaks first when a mortgage infrastructure company grows through that inflection. The AI pre-approval layer that handles clean income, clean assets, and clean liabilities keeps performing. The edge cases do not. Self-employed borrowers, non-QM, complex-income structures, jumbo. Every one of those cases routes to a human underwriter, and every one of them arrives with partial context. The reviewer re-gathers what the model already saw. The compliance audit trail fragments. The loan slows. The secondary-market pricing on that loan reflects the delay.</p>
+
+          <p>This is a routing problem, and routing problems are orchestration problems. We read most companies against a 60/30/10 frame.</p>
+
+          <!-- 60/30/10 framework -->
+          <div class="frame" role="group" aria-label="60/30/10 orchestration frame">
+            <div class="frame-item">
+              <div class="pct tabular">60%</div>
+              <div class="layer">Traditional code</div>
+              <p class="desc">Database work, state management, the boring 60% of any origination stack.</p>
+            </div>
+            <div class="frame-item">
+              <div class="pct tabular">30%</div>
+              <div class="layer">Rule-based logic</div>
+              <p class="desc">Disclosure, state licensing, product eligibility, TRID windows. The compliance surface.</p>
+            </div>
+            <div class="frame-item">
+              <div class="pct tabular">10%</div>
+              <div class="layer">Genuine AI</div>
+              <p class="desc">Document extraction, narrative underwriting on complex cases, anomaly flagging.</p>
+            </div>
+          </div>
+
+          <p>Most mortgage-tech builds get those proportions backwards. The AI gets the attention. The 30% rule layer is where the compliance exposure actually lives, and the 60% code layer is where the operational scale actually lives.</p>
+
+          <!-- Case card: VigilOre -->
+          <div class="case">
+            <div class="tag">Precedent · Regulated document workflows</div>
+            <h3>We mapped the same shape at <em>VigilOre</em>, a multi-agent compliance platform for regulated document workflows.</h3>
+            <p style="color: rgba(255,255,255,0.82); font-size: 16px; line-height: 1.65; max-width: 60ch; margin: 0;">Specialist agents for each compliance domain, rule-based routing between them, human review on the edge cases, every decision logged in an interpretable audit trail. For a mortgage-infrastructure company entering its scaling year, that architecture is directly portable. TRID windows replace DRC licensing rules. Non-QM underwriter escalation replaces geological-data review. The orchestration pattern is the same.</p>
+
+            <div class="case-metrics">
+              <div class="m">
+                <span class="n tabular">160+</span>
+                <span class="c">hours of compliance work, per engagement cycle</span>
+              </div>
+              <div class="m">
+                <span class="n tabular">&lt;5 min</span>
+                <span class="c">after the orchestration layer shipped</span>
+              </div>
+              <div class="m">
+                <span class="n tabular">1</span>
+                <span class="c">interpretable audit trail per decision</span>
+              </div>
+            </div>
+          </div>
+
+          <p>One paper worth thirty minutes of your legal team's time.</p>
+
+          <!-- Ethics Engine paper card -->
+          <div class="paper">
+            <div class="icon" aria-hidden="true">E</div>
+            <div>
+              <h3>Ethics Engine</h3>
+              <p class="bio">A psychometric assessment tool for evaluating ideological and moral patterns in LLMs. Directly useful for fair-lending defense: ECOA complaints alleging disparate impact from automated pre-approval models will be litigated in the next rate cycle, and an in-house way to test and document model behavior is a risk-adjusted cost line.</p>
+              <div class="links">
+                <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742</a>
+                <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine</a>
+              </div>
+            </div>
+          </div>
+
+          <p class="partner-note"><strong>On scope.</strong> Eduba partners with <a href="https://nlplogix.com" target="_blank" rel="noopener">NLP Logix</a> for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists. If the right next step ends up being production ML infrastructure rather than orchestration design (model retraining pipelines, monitoring stack, data warehouse consolidation), the handoff is already in place.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="next-step">
+    <div class="container">
+      <div class="eyebrow">Next step</div>
+      <h2>Thirty minutes with <em>Matt Creamer</em>, Eduba's CRO.</h2>
+      <p class="sub">A live orchestration audit against one real workflow. The specificity is the point: if the mapping does not earn the next conversation, the conversation does not happen.</p>
+
+      <div class="cta-row">
+        <a class="btn-primary" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+          Book 30 minutes with Matt
+          <svg class="arrow" viewBox="0 0 18 12" fill="none" aria-hidden="true">
+            <path d="M1 6h15M11 1l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/>
+          </svg>
+        </a>
+        <span class="cta-meta"><span class="who">Matt Creamer</span>&nbsp;·&nbsp;Eduba CRO&nbsp;·&nbsp;calendly.com/thecro-eduba/30min</span>
+      </div>
+
+      <div class="bring">
+        <strong>Bring one workflow you hate</strong>
+        The one where the AI handoff to the human reviewer drops context, or the one where a new state license adds a week of integration work. We will run the audit against it on the call.
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span class="prep">Prepared by Eduba · <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a> &middot; <a href="https://eduba.io/works" target="_blank" rel="noopener">More case studies</a></span>
+      <span>For Realfinity only</span>
+    </div>
+  </footer>
+
+<footer data-eduba="footer" style="background:#0a0a0a;color:#dcdcdc;padding:36px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:1.6;border-top:1px solid #1f1f1f;margin-top:48px;">
+  <div style="max-width:1040px;margin:0 auto;">
+    <div style="display:flex;flex-wrap:wrap;gap:28px;justify-content:space-between;align-items:flex-start;">
+      <div style="min-width:240px;flex:1;">
+        <div style="margin-bottom:6px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#ffffff;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-0.02em;">eduba</a></div>
+        <div style="opacity:0.85;margin-bottom:4px;">Van Clief Media LLC, dba Eduba</div>
+        <div style="opacity:0.7;">Veteran-owned AI consulting and training firm</div>
+      </div>
+      <div style="min-width:220px;flex:1;">
+        <div style="color:#ffffff;font-weight:600;margin-bottom:2px;">Matt Creamer, CRO</div>
+        <div style="margin-bottom:10px;"><a href="mailto:thecro@eduba.io" style="color:#dcdcdc;text-decoration:underline;">thecro@eduba.io</a></div>
+        <div style="opacity:0.85;">Founder: Jake Van Clief</div>
+      </div>
+      <div style="min-width:180px;flex:1;">
+        <div style="margin-bottom:4px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#dcdcdc;text-decoration:underline;">eduba.io</a></div>
+        <div style="opacity:0.85;">Palm Coast, FL</div>
+      </div>
+    </div>
+    <div style="margin-top:24px;padding-top:16px;border-top:1px solid #1f1f1f;opacity:0.62;font-size:12px;line-height:1.55;">
+      This site was custom-built by Eduba as a conference pitch. It is not affiliated with or operated by Realfinity.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
